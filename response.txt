@@ -1,0 +1,6 @@
+Kevin Wiley
+9/3/2025
+
+A core operation that I used were intersections. These were extremely important for multiple steps due to how easy and feasible they make comparing the data inside of different sets. Without them you would have to have much more code involved that may make your program look and feel clunkier. I combined intersections with for loops to iterate through the entire list of items and put the duplicates into a list. I then used the length of this list to find out how many matches total there were. Similarly I used intersections in the second function to get the number of matches, only this time on a per item basis. Using these loops and intersections allowed a lot of data to be compared with a smaller amount of code. 
+
+If there were more than 1000 products available I don’t think that the code involving loops and intersections would actually change that much. You still need to check the data for any matching tags, and the loop will iterate through the whole thing without a problem. It may take a moment but that is just the cost of having 1000 products. The results that are displayed would have to be drastically shortened though. For example this could be done by either displaying the first 50, requiring more than 1 preference, or having a “load more” feature if the example is a website.
