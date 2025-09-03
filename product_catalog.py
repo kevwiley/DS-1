@@ -43,8 +43,9 @@ def recommend_products(products, customer_tags):
         matches = len(items["tags"].intersection(customer_tags)) #gets the number of matches on a per item basis.
         if matches > 0: #also makes sure empty list isn't returned.
             item_matches.append([items["name"], matches]) #makes a list of item and amount of matches
-    print(item_matches) #prints list containing list of item name and number of matches.
-    
+    print("Recommended Products:")
+    for product, total_matches in item_matches: #code loops through item_matches list, takes first and second item in nested list
+        print(f"- {product} ({total_matches} match(es))") #prints product name and matches.
 # TODO: Step 7 - Call your function and print the results
 
 count_matches(products_with_sets,customer_preferences_set)
